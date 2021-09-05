@@ -3,5 +3,9 @@
     "buildpacks": [
     { "url": "heroku/python" }
     ],
-    "environments": {}
+    "environments": {
+        "test": {
+            "scripts": {}
+          }
+    }
   }
