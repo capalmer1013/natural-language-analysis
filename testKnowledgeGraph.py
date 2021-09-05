@@ -25,7 +25,7 @@ startTime = time.time()
 
 # G.saveJson(save)
 
-#print(G.generateSequence())
+print(G.generateSequence())
 
-print(G.getWordsByFrequency(30))
+#print(G.getWordsByFrequency(30))
 print("time: ", time.time()-startTime)
